@@ -43,15 +43,15 @@ time, mark, audio, video {
     color: black;
     text-decoration: none;
 }
-.jumbo {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 30px;
+
+
+.flex-section {
+    width: 300px;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+
 }
-
-
-
-
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;

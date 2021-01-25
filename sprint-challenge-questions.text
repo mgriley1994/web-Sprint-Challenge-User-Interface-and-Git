@@ -1,0 +1,32 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+All tags have a purpose in HTML, however there are certain tags that are more descriptive about their 
+content than others. Semantic tags in HTML have a clear and concise meaning and define their content's 
+area within a web document. A a good example would be the <header> tag, which describes a web 
+page's heading section at the top of a home page which might include things like a title and 
+a navigation bar for useful links.
+
+
+Name two big differences between display: block; and display: inline;.
+
+Display: block;, treats elements as block level and therefore allows them to stack 
+on top of one another in a web page. The display: inline; property allows elements 
+that may be natural block level elements to display on the same line as other elements. 
+Another difference is that the newly created inline element can sit inside of other block elements. 
+
+What are the 4 areas of the box model?
+
+The four areas of the box model in CSS start with the inner most block which is: content,  
+followed by padding, borders, and finally margins, which is the space that lies outside of the
+element's borders.
+
+While using flexbox, what axis does the following property work on: align-items: center?
+
+This property works on the cross axis, which is perpendicular to the main axis in flexbox.
+
+
+Explain why git is valuable to a team of developers.
+
+Git is a version control system which keeps track of multiple versions and updates of code projects 
+while simultaneously allowing you to use easy commands to update projects on to 
+collaborative platforms like Github and communicate effectively during  project lifecycle. 

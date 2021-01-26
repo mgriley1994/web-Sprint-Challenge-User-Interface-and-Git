@@ -79,19 +79,18 @@ p {
     padding-left: 65px;
 }
 
+header {
+    justify-content: center;
+    margin-top: 20px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+}
 
 .top-content {
     display: flex;
@@ -148,9 +147,15 @@ p {
     padding-right: 0;
 }
 
-footer {
-    width: 100%;
+.footer-index {
+    width: 85%;
     background: black;
+    margin: 0 auto;
+}
+.footer-about {
+    width: 45%;
+    background: black;
+    margin: 0 auto;
 }
 
 footer nav {
@@ -165,4 +170,23 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.squares {
+    width: 370px;
+}
+
+.learn {
+    border-radius: 15px;
+    padding: 15px;
+    background-color: white;
+    margin: 5px 0px 5px 0px;
+    font-weight: bold;
 }
